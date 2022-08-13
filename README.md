@@ -1,3 +1,3 @@
 # dev-st
 
-codeChallenge-st
+codeChallengePrep-st
