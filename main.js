@@ -4,7 +4,7 @@ function updateSubarr(arr, step = 0) {
 }
 
 const updateArr = updateSubarr([4, 14, 67], 3);
-console.log(updateArr);
+console.log(updateArr); //[7, 17, 70]
 
 /*P: Function inputs are an array plus default parament, variable.
   R: Function returns an array.
