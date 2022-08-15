@@ -1,9 +1,12 @@
+//updateSubarr is assigned the function definition
 function updateSubarr(arr, step = 0) {
   arr.forEach((char, i) => arr[i] += step);
   return arr;
 }
-
+//updateArr value will be the evaluated result of passing arguments into updateSubarr.
 const updateArr = updateSubarr([4, 14, 67], 3);
+
+//updateArr will be logged (via log method) to the console object.
 console.log(updateArr); //[7, 17, 70]
 
 /*P: Function inputs are an array plus default 
