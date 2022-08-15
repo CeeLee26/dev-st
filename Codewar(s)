@@ -24,7 +24,7 @@ function shortcut (string) {
   let woVowel = "";
   
   for(const char of string) {
-    if (!"aeiou".includes(char)) woVowel += char;
+    if (!"aeiou".includes(char.toLowerCase())) woVowel += char;
   }
     
   return woVowel;
