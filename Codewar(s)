@@ -1,0 +1,19 @@
+function wVowel(word) {
+  
+  for(const char of word) {
+    if ("aeiou".includes(char.toLowerCase())) {
+    }
+  }
+  return word;
+} 
+  
+function countWords(str) {
+  // ...
+  let count = 0;
+  str = str.split(/\s/);
+  
+  for(const word of str) {
+    if (wVowel(word)) count++; 
+  }
+  return count;
+}
