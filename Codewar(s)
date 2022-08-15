@@ -17,3 +17,15 @@ function countWords(str) {
   }
   return count;
 }
+
+______________________________________________
+
+function shortcut (string) {
+  let woVowel = "";
+  
+  for(const char of string) {
+    if (!"aeiou".includes(char)) woVowel += char;
+  }
+    
+  return woVowel;
+}
