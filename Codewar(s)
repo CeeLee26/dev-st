@@ -1,7 +1,7 @@
 function wVowel(word) {
   
   for(const char of word) {
-    if ("aeiou".includes(char.toLowerCase())) {
+    if ("aeiouy".includes(char.toLowerCase())) {
     }
   }
   return word;
