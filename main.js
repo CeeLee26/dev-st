@@ -1,3 +1,4 @@
+
 //updateSubarr is assigned the function definition
 function updateSubarr(arr, step = 0) {
   arr.forEach((char, i) => arr[i] += step);
@@ -19,7 +20,9 @@ console.log(updateArr); //[7, 17, 70]
      concatenation of the variable. When the 
      loop ends, the changed subarrays populate 
      the original array.*/
+
 ______________________________________________________________________________________
+
 
 function wVowel(word) {
   for(const char of word) {
@@ -42,11 +45,4 @@ function countWords(str) {
 
 ______________________________________________________________________________________
 
-function shortcut (string) {
-  let woVowel = "";
-  
-  for(const char of string) {
-    (!"aeiou".includes(char.toLowerCase())) && woVowel += char;
-  } 
-  return woVowel;
-}
+
