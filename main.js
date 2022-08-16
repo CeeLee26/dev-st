@@ -50,5 +50,5 @@ function shortcut (string) {
   } 
   return woVowel;
 }
-
-console.log(shortcut("done"));
+const voweLess = shortcut("done");
+console.log(voweLess);
