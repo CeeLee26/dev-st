@@ -38,7 +38,7 @@ function countWords(str) {
   str = str.split(/\s/);
   
   for(const word of str) {
-    (wVowel(word)) && count++; 
+    wVowel(word) && count++; 
   }
   return count;
 }
