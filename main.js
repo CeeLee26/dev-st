@@ -22,7 +22,7 @@ console.log(updateArr); //[7, 17, 70]
 ______________________________________________
 
 function wVowel(word) {
-  
+ 
   for(const char of word) {
     if ("aeiouy".includes(char.toLowerCase())) {
     }
@@ -30,6 +30,7 @@ function wVowel(word) {
   return word;
 } 
   
+
 function countWords(str) {
   // ...
   let count = 0;
