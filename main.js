@@ -19,10 +19,9 @@ console.log(updateArr); //[7, 17, 70]
      concatenation of the variable. When the 
      loop ends, the changed subarrays populate 
      the original array.*/
-______________________________________________
+______________________________________________________________________________________
 
 function wVowel(word) {
- 
   for(const char of word) {
     if ("aeiouy".includes(char.toLowerCase())) {
     }
@@ -32,24 +31,22 @@ function wVowel(word) {
   
 
 function countWords(str) {
-  // ...
   let count = 0;
   str = str.split(/\s/);
   
   for(const word of str) {
-    if (wVowel(word)) count++; 
+    (wVowel(word)) && count++; 
   }
   return count;
 }
 
-______________________________________________
+______________________________________________________________________________________
 
 function shortcut (string) {
   let woVowel = "";
   
   for(const char of string) {
-    if (!"aeiou".includes(char.toLowerCase())) woVowel += char;
-  }
-    
+    (!"aeiou".includes(char.toLowerCase())) && woVowel += char;
+  } 
   return woVowel;
 }
