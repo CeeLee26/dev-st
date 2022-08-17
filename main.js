@@ -23,18 +23,27 @@ console.log(updateArr); //[7, 17, 70]
 ___________________________________________________________________________________
 
 function wVowel(word) {
+//Loop thru string to compare each letter
   for(const char of word) {
+//Determine if any letter is a vowel-like
     if ("aeiouy".includes(char.toLowerCase())) {
+//Do anything
     }
   }
+//Return word if truthy
   return word;
 } 
   
 
 function countWords(str) {
+//Declare a variable
   let count = 0;
+/*Create an array from the str (sentence) placing
+array commas at the space separating each word
+in the str (sentence)*/
   str = str.split(/\s/);
-  
+
+//Loop thru str (sentence) to compare each word
   for(const word of str) {
     wVowel(word) && count++; 
   }
