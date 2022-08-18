@@ -27,7 +27,7 @@ function wVowel(word) {
   for(const char of word) {
 //Determine if any letter is a vowel-like
     if ("aeiouy".includes(char.toLowerCase())) {
-//Do anything
+//Do anything because returning will thwart the loop
     }
   }
 //Return word if truthy
