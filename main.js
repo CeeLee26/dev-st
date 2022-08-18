@@ -39,14 +39,17 @@ function countWords(str) {
 //Declare a variable
   let count = 0;
 /*Create an array from the str (sentence) placing
-array commas at the space separating each word
+array commas at the whitespace separating each word
 in the str (sentence)*/
   str = str.split(/\s/);
 
 //Loop thru str (sentence) to compare each word
   for(const word of str) {
+//Call helper function with word arguments and
+//tally word if truthy
     wVowel(word) && count++; 
   }
+//return tally
   return count;
 }
 __________________________________________________________________________________
