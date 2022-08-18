@@ -22,6 +22,7 @@ console.log(updateArr); //[7, 17, 70]
      the original array (modified the array in place).*/
 ___________________________________________________________________________________
 
+//wVowel is assigned the function definition
 function wVowel(word) {
 //Loop thru string to compare each letter
   for(const char of word) {
@@ -34,7 +35,7 @@ function wVowel(word) {
   return word;
 } 
   
-
+//countWords is assigned the function definition
 function countWords(str) {
 //Declare a variable
   let count = 0;
@@ -52,8 +53,14 @@ in the str (sentence)*/
 //return tally
   return count;
 }
+//defSubArr value will be the evaluated result of passing arguments into countWords.
+const defSubArr = countWords("  ce0$,   , are  ") 
+
+//The result of invoking the function is logged to the console.
+console.log(defSubArr); //2
 __________________________________________________________________________________
 
+//shortcut is assigned the function definition
 function shortcut (string) {
   let woVowel = "";
 
@@ -62,5 +69,8 @@ function shortcut (string) {
   } 
   return woVowel;
 }
+//voweLess will be assigned result of passing arguments into shortcut.
 const voweLess = shortcut("done");
-console.log(voweLess);
+
+//The function call value is logged.
+console.log(voweLess); //"dn"
