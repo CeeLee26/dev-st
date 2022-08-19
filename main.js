@@ -71,7 +71,7 @@ function shortcut(string) {
       3rd loop n is searched for in vowels string then added to string => "dn"
       4th loop e is searched for in vowels string then excluded*/
   
-      return woVowel;
+    return woVowel;
 }
 //voweLess will be assigned result of passing arguments into shortcut.
 const voweLess = shortcut("done");
