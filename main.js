@@ -25,7 +25,7 @@ ________________________________________________________________________________
 //wVowel is assigned the function definition
 function wVowel(word) {
 //Loop thru string to compare each letter
-  for(const char of word) {
+  for (const char of word) {
 //Determine if any letter is a vowel-like
     if ("aeiouy".includes(char.toLowerCase())) {
 //Do anything because returning will thwart the loop
@@ -45,7 +45,7 @@ in the str (sentence)*/
   str = str.split(/\s/);
 
 //Loop thru str (sentence) to compare each word
-  for(const word of str) {
+  for (const word of str) {
 //Call helper function with word arguments and
 //tally word if truthy
     wVowel(word) && count++; 
@@ -61,13 +61,17 @@ console.log(defSubArr); //2
 __________________________________________________________________________________
 
 //shortcut is assigned the function definition
-function shortcut (string) {
+function shortcut(string) {
   let woVowel = "";
 
-  for(const char of string) {
+  for (const char of string) {
     !"aeiou".includes(char.toLowerCase()) && (woVowel += char);
-  } 
-  return woVowel;
+  } /*1st loop d is searched for in vowels string then added to empty string => "d"
+      2nd loop o is searched for in vowels string then excluded
+      3rd loop n is searched for in vowels string then added to string => "dn"
+      4th loop e is searched for in vowels string then excluded*/
+  
+      return woVowel;
 }
 //voweLess will be assigned result of passing arguments into shortcut.
 const voweLess = shortcut("done");
