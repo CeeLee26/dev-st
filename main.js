@@ -1,6 +1,9 @@
 
 //updateSubarr is assigned the function definition
 function updateSubarr(arr, step = 0) {
+/*1st loop 4 is incremented by 3 (in place) to 7
+  2nd loop 14 is incremented by 3 to 18
+  3rd loop 67 is incremented by 3 to 70
   arr.forEach((char, i) => arr[i] += step);
   return arr;
 }
@@ -66,9 +69,9 @@ function shortcut(string) {
 
   for (const char of string) {
     !"aeiou".includes(char.toLowerCase()) && (woVowel += char);
-  } /*1st loop d is searched for in vowels string then added to empty string => "d"
+  } /*1st loop d is searched for in vowels string then added to empty string, "d"
       2nd loop o is searched for in vowels string then excluded
-      3rd loop n is searched for in vowels string then added to string => "dn"
+      3rd loop n is searched for in vowels string then added to string, "dn"
       4th loop e is searched for in vowels string then excluded*/
   
     return woVowel;
