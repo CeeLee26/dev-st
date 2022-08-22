@@ -45,7 +45,7 @@ function countWords(str) {
 /*Create an array from the str (sentence) placing
 array commas at the whitespace separating each word
 in the str (sentence)*/
-  str = str.split(/\s/);
+  str = str.split(/\s*/);
 
 //Loop thru str (sentence) to compare each word
   for (const word of str) {
