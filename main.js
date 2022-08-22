@@ -1,10 +1,10 @@
 
 //updateSubarr is assigned the function definition
 function updateSubarr(arr, step = 0) {
+  arr.forEach((char, i) => arr[i] += step);
 /*1st loop 4 is incremented by 3 (in place) to 7
   2nd loop 14 is incremented by 3 to 18
   3rd loop 67 is incremented by 3 to 70*/
-  arr.forEach((char, i) => arr[i] += step);
   return arr;
 }
 //updateArr value will be the evaluated result of passing arguments into updateSubarr.
