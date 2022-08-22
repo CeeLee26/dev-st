@@ -48,11 +48,10 @@ in the str (sentence)*/
   str = str.split(/\s+/);
 
 //Loop thru str (sentence) to compare each word
-  for (const word of str) {
+  for (const word of str) wVowel(word) && count++; 
 //Call helper function with word arguments and
 //tally word if truthy
-    wVowel(word) && count++; 
-  }
+    
 //return tally
   return count;
 }
@@ -67,13 +66,11 @@ ________________________________________________________________________________
 function shortcut(string) {
   let woVowel = "";
 
-  for (const char of string) {
-    !"aeiou".includes(char.toLowerCase()) && (woVowel += char);
-  } /*1st loop d is searched for in vowels string then added to empty string, "d"
+  for (const char of string) !"aeiou".includes(char.toLowerCase()) && (woVowel += char);
+    /*1st loop d is searched for in vowels string then added to empty string, "d"
       2nd loop o is searched for in vowels string then excluded
       3rd loop n is searched for in vowels string then added to string, "dn"
       4th loop e is searched for in vowels string then excluded*/
-  
     return woVowel;
 }
 //voweLess will be assigned result of passing arguments into shortcut.
