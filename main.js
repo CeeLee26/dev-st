@@ -1,7 +1,7 @@
 
 //updateSubarr is assigned the function definition
 function updateSubarr(arr, step = 0) {
-  arr.forEach((char, i) => arr[i] += step);
+  arr.forEach((char, i) => arr[i] += step); // forEach is a higher order array fxn that reassigns given variables.
 /*1st loop 4 is incremented by 3 (in place) to 7
   2nd loop 14 is incremented by 3 to 18
   3rd loop 67 is incremented by 3 to 70*/
