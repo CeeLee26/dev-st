@@ -81,7 +81,7 @@ console.log(voweLess); //"dn"
 ______________________________________________
 //factorial is assigned the function definition
 function factorial(num, acc = 1) {
-  if (num === 1) return acc; //When num variable decrement to the value 1, stop the recursion and return the acc variable value.
+  if (num === 1) return acc; //When the num variable decrements to the value of 1, stop the recursion (calls to factorial fxn) and return the acc variable value.
   return factorial (num - 1, acc * num);
   /*1st call to factorial, parameter num is paired to argument 4. The acc variable is reassigned to 1 × 4, and num is decremented by 1 and reassigned to 3.
     2nd call to factorial, parameter num is paired to argument 3. The acc variable is reassigned to 1 × 4 × 3, and num is reassigned to 2.
