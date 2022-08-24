@@ -87,4 +87,5 @@ function factorial(num, acc = 1) {
 
 console.log(factorial(4)); //24
 console.log(factorial(6)); //720
+_______________________________________________
 
