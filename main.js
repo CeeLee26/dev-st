@@ -78,3 +78,13 @@ const voweLess = shortcut("done");
 
 //The function call value is logged.
 console.log(voweLess); //"dn"
+______________________________________________
+
+function factorial(num, acc = 1) {
+  if (num === 1) return acc;
+  return factorial (num - 1, acc * num);
+}
+
+console.log(factorial(4)); //24
+console.log(factorial(6)); //720
+
