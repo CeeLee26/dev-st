@@ -79,13 +79,19 @@ const voweLess = shortcut("done");
 //The function call value is logged.
 console.log(voweLess); //"dn"
 ______________________________________________
-
+//factorial is assigned the function definition
 function factorial(num, acc = 1) {
-  if (num === 1) return acc;
+  if (num === 1) return acc; //When num variable decrement to the value 1, stop the recursion and return the acc variable value.
   return factorial (num - 1, acc * num);
+  /*1st call to factorial, parameter num is paired to argument 4. The acc variable is reassigned to 1 × 4, and num is decremented by 1 and reassigned to 3.
+    2nd call to factorial, parameter num is paired to argument 3. The acc variable is reassigned to 1 × 4 × 3, and num is reassigned to 2.
+    3rd call to factorial, parameter num is paired to argument 2. The acc variable is reassigned to 1 × 4 × 3 × 2, and num is reassigned to 1.
+    4th call to factorial, parameter num is paired to argument 1. The acc variable is returned with the value of 1 × 4 × 3 × 2.*/
 }
+//accumulator value will be the evaluated result of passing arguments into factorial.
+const accumulator = factorial(4);
 
-console.log(factorial(4)); //24
-console.log(factorial(6)); //720
+//accumulator will be logged (via log method) to the console object.
+console.log(accumulator); //24
 _______________________________________________
 
