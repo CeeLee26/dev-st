@@ -95,3 +95,18 @@ const accumulator = factorial(4);
 console.log(accumulator); //24
 _______________________________________________
 
+function getLength(array, count = 0, p = 0) {
+  if (!array[p]) return count;
+  else {
+    count++;
+  }
+  return getLength(array, count, p + 1);
+
+}
+
+console.log(getLength([1])); //1
+console.log(getLength([1, 2])); //2
+console.log(getLength([1, 2, 3, 4, 5])); //5
+console.log(getLength([])); //0
+
+____________________________________________________________
