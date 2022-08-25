@@ -115,7 +115,7 @@ function closestToTheMark(player1, player2){
   const theMark = Math.floor(Math.random() * 100)
   console.log(`If theMark is ${theMark}...`);
   
-  if (Math.abs(player2 - theMark) > Math.abs(player1 -theMark)) return 'Player 1 is closest'; 
+  if (Math.abs(player2 - theMark) > Math.abs(player1 - theMark)) return 'Player 1 is closest'; 
   else if (Math.abs(player2 - theMark) === Math.abs(player1 - theMark)) return 'Player 1 and Player 2 are tied'; 
   return 'Player 2 is closest'; 
 }
