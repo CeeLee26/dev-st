@@ -101,18 +101,22 @@ function getLength(array, count = 0, p = 0) {
     count++;
   }
   return getLength(array, count, p + 1);
+  /*1st call to getLength, parameter(s) is paired to argument. The count variable is reassigned to 1, and p is reassigned to 1.
+    2nd call to getLength, parameter(s) is paired to argument. The count variable is reassigned to 2, and p is reassigned to 2.
+    3rd call to getLength, parameter(s) is paired to argument. The count variable is reassigned to 3, and p is reassigned to 3.
+    4th call to getLength, parameter(s) is paired to argument. The count variable is 4, and p is 4. 
+    5th call to getLength, parameter(s) is paired to argument. The count variable is 5, and p is 5.
+    6th call to getLength, parameter(s) is paired to argument. The count variable of 5 is returned because array[5] is -1 and !(-1) equals truthy 1.*/
 
 }
+const arrLen = getLength([1, 2, 3, 4, 5];
 
-console.log(getLength([1])); //1
-console.log(getLength([1, 2])); //2
-console.log(getLength([1, 2, 3, 4, 5])); //5
-console.log(getLength([])); //0
+console.log(arrLen); //5
 
 ____________________________________________________________
 
 function closestToTheMark(player1, player2){
-  const theMark = Math.floor(Math.random() * 100)
+  const theMark = Math.floor(Math.random() * 100 + 1) //range from 1 to 100
   console.log(`If theMark is ${theMark}...`);
   
   if (Math.abs(player2 - theMark) > Math.abs(player1 - theMark)) return 'Player 1 is closest'; 
@@ -120,8 +124,9 @@ function closestToTheMark(player1, player2){
   return 'Player 2 is closest'; 
 }
 
+const winner = closestToTheMark(25, 75);
 
-console.log(closestToTheMark(25, 75));//random
+console.log(winner); //random
 
 
 
