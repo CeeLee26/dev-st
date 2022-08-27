@@ -79,6 +79,7 @@ const voweLess = shortcut("done");
 //The function call value is logged.
 console.log(voweLess); //"dn"
 ______________________________________________
+
 //factorial is assigned the function definition
 function factorial(num, acc = 1) {
   if (num === 1) return acc; //When the num variable decrements to the value of 1, stop the recursion (calls to factorial fxn) and return the acc variable value.
@@ -101,7 +102,7 @@ function getLength(array, count = 0, p = 0) {
     count++;
   }
   return getLength(array, count, p + 1);
-  /*1st call to getLength, parameter(s) is paired to argument. The count variable is reassigned to 1, and p is reassigned to 1.
+  /*1st call to getLength, parameter(s) is paired to argument. The count variable is reassigned from 0 to 1 after else code block, and p is reassigned to 1 because if statement is bypassed since array[0] is subarray 1 and !1 is falsy.
     2nd call to getLength, parameter(s) is paired to argument. The count variable is reassigned to 2, and p is reassigned to 2.
     3rd call to getLength, parameter(s) is paired to argument. The count variable is reassigned to 3, and p is reassigned to 3.
     4th call to getLength, parameter(s) is paired to argument. The count variable is 4, and p is 4. 
