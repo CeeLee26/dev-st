@@ -130,7 +130,15 @@ const winner = closestToTheMark(25, 75);
 
 console.log(winner); //random
 
+____________________________________________________________
 
+FYI
+
+variable1 == true && variable2 == false;
+variable1 > variable2;
+variable1 && !variable2;
+
+____________________________________________________________
 
 
 
