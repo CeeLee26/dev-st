@@ -142,9 +142,9 @@ n & 1;
 n % 2;
 n % 2 == 1;
 
-Number.parseInt
-parseInt
-Math.floor
+Number.parseInt()
+parseInt()
+Math.floor()
 ~~
 
 eval([...array].join("+");
