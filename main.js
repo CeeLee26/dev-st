@@ -141,6 +141,15 @@ variable1 && !variable2;
 n & 1;
 n % 2;
 n % 2 == 1;
+
+Number.parseInt
+parseInt
+Math.floor
+~~
+
+eval([...array].join("+");
+[...array].reduce((a, n) => a + n);
+
 ____________________________________________________________
 
 
