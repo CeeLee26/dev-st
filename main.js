@@ -153,6 +153,7 @@ eval([...array].join("+");
 Buffer(str)
 str.split("").join("")
 
+=> [...array1].test(char);
 return fxName.pop([...array1]);
 return [...array].filter(char => ![...array1].includes(char));
 };
