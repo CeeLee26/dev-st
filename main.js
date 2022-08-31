@@ -150,6 +150,9 @@ Math.floor()
 eval([...array].join("+");
 [...array].reduce((a, n) => a + n);
 
+Buffer(str)
+str.split("").join("")
+
 ____________________________________________________________
 
 
