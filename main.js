@@ -174,7 +174,7 @@ return [...array].filter(char => ![...array1].includes(char));
 [...array].filter((l, x) => [...array].indexOf(l) == x);
 ...
 
-return * (parameter == argument) //data type
+return * (parameter == argument) //int
 ...
 
 ________________________________________________________________________
