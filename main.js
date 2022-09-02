@@ -1,3 +1,4 @@
+Line by line dissection:
 
 //updateSubarr is assigned the function definition
 function updateSubarr(arr, step = 0) {
@@ -131,6 +132,7 @@ const winner = closestToTheMark(25, 75);
 console.log(winner); //random
 
 ____________________________________________________________
+Group similar code strategy
 
 FYI
 
@@ -144,8 +146,9 @@ n % 2 == 1;
 
 Number.parseInt()
 parseInt()
-Math.floor()
 ~~
+Math.floor()
+
 
 eval([...array].join("+");
 [...array].reduce((a, n) => a + n);
@@ -158,6 +161,7 @@ return fxName.pop([...array1]);
 return [...array].filter(char => ![...array1].includes(char));
 };
 
+[...array].length = Math.min(n, array.length);
 ____________________________________________________________
 
 
