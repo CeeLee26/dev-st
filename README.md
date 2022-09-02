@@ -1,3 +1,5 @@
-# dev-st
+Mastering client side vanilla js:
 
-codewar(s)
+Dissecting code challenges 
+Comparing code sol'n(s)
+Achieve conversant tier
