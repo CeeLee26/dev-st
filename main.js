@@ -133,6 +133,7 @@ const winner = closestToTheMark(25, 75);
 console.log(winner); //random
 
 ____________________________________________________________
+
 Group similar code strategy (FYI):
 
 variable1 == true && variable2 == false;
