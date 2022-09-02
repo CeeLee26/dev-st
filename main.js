@@ -132,37 +132,46 @@ const winner = closestToTheMark(25, 75);
 console.log(winner); //random
 
 ____________________________________________________________
-Group similar code strategy
-
-FYI
+Group similar code strategy (FYI):
 
 variable1 == true && variable2 == false;
 variable1 > variable2;
 variable1 && !variable2;
+...
 
 n & 1;
 n % 2;
 n % 2 == 1;
+...
 
 Number.parseInt()
 parseInt()
 ~~
 Math.floor()
-
+...
 
 eval([...array].join("+");
 [...array].reduce((a, n) => a + n);
+...
 
 Buffer(str)
 str.split("").join("")
+...
 
 => [...array1].test(char);
 return fxName.pop([...array1]);
 return [...array].filter(char => ![...array1].includes(char));
 };
+...
 
-[...array].length = Math.min(n, array.length);
-____________________________________________________________
+[...array].length = Math.min(n, [...array].length); (no undefined)
+...
+
+[...new Set([...array])];
+![].includes(l) [].push(l);
+[...array].filter((l, x) => [...array].indexOf(l) == x);
+...
+________________________________________________________________________
 
 
 
