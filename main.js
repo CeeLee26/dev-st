@@ -177,6 +177,11 @@ return [...array].filter(char => ![...array1].includes(char));
 return * (parameter == argument) //int
 ...
 
+continue (skip current and continue looping)
+""
+blank after if statement
+...
+
 ________________________________________________________________________
 
 
