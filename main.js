@@ -182,6 +182,8 @@ continue (skip current and continue looping)
 blank after if statement
 ...
 
+[...Array(n + ).keys].splice(1) //consecutive array
+...
 ________________________________________________________________________
 
 
