@@ -1,4 +1,3 @@
-
 Line by line dissection:
 
 //updateSubarr is assigned the function definition
@@ -25,6 +24,7 @@ console.log(updateArr); //[7, 17, 70]
      concatenation of the variable. When the 
      loop ends, the changed subarrays populate 
      the original array (modified the array in place).*/
+
 ___________________________________________________________________________________
 
 //wVowel is assigned the function definition
@@ -62,6 +62,7 @@ const defSubArr = countWords("  ce0$,   , are  ")
 
 //The result of invoking the function is logged to the console.
 console.log(defSubArr); //2
+
 __________________________________________________________________________________
 
 //shortcut is assigned the function definition
@@ -80,6 +81,7 @@ const voweLess = shortcut("done");
 
 //The function call value is logged.
 console.log(voweLess); //"dn"
+
 ______________________________________________
 
 //factorial is assigned the function definition
@@ -96,6 +98,7 @@ const accumulator = factorial(4);
 
 //accumulator will be logged (via log method) to the console object.
 console.log(accumulator); //24
+
 _______________________________________________
 
 function getLength(array, count = 0, p = 0) {
@@ -117,44 +120,19 @@ const arrLen = getLength([1, 2, 3, 4, 5];
 console.log(arrLen); //5
 
 ____________________________________________________________
-
-function closestToTheMark(player1, player2){
-  const theMark = Math.floor(Math.random() * 100 + 1) //range from 1 to 100
-  console.log(`If theMark is ${theMark}...`);
- 
- //The difference digit is compared between players
-  if (Math.abs(player2 - theMark) > Math.abs(player1 - theMark)) return 'Player 1 is closest'; 
-  else if (Math.abs(player2 - theMark) == Math.abs(player1 - theMark)) return 'Player 1 and Player 2 are tied'; 
-  return 'Player 2 is closest'; 
-}
-
-const winner = closestToTheMark(25, 75);
-
-console.log(winner); //random
-
-____________________________________________________________
-
-Group similar code strategy (FYI):
+FYI:
 
 variable1 == true && variable2 == false;
 variable1 > variable2;
 variable1 && !variable2;
 ...
 
-n & 1;
-n % 2;
-n % 2 == 1;
-...
-
-Number.parseInt()
-parseInt()
-~~
-Math.floor()
-...
-
 eval([...array].join("+");
 [...array].reduce((a, n) => a + n);
 ...
+
+____________________________________________________________
+Group similar code strategy:
 
 Buffer(str)
 str.split("").join("")
@@ -182,11 +160,22 @@ continue (skip current and continue looping)
 blank after if statement
 ...
 
+________________________________________________________________________
+Practicing:
+
 [...Array(n + ).keys].splice(1) //consecutive array
 ...
-________________________________________________________________________
 
+Number.parseInt()
+parseInt()
+~~
+Math.floor()
+...
 
+n & 1;
+n % 2;
+n % 2 == 1;
+...
 
 ____________________________________________________________
 
