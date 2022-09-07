@@ -179,9 +179,9 @@ n % 2 == 1;
 ____________________________________________________________
 Bad Practice(s)
 
-eval([...array].join("+");
-Function("return " + string)()
-new Function("return " + string)()
+eval([...array].join("+"); //global?
+Function("return " + string)(); //function scoped?
+new Function("return " + string)(); //function scoped?
 ...
 
 
