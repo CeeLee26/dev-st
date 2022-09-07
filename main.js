@@ -127,7 +127,6 @@ variable1 > variable2;
 variable1 && !variable2;
 ...
 
-eval([...array].join("+");
 [...array].reduce((a, n) => a + n);
 ...
 
@@ -178,4 +177,12 @@ n % 2 == 1;
 ...
 
 ____________________________________________________________
+Bad Practice(s)
+
+eval([...array].join("+");
+Function("return " + string)()
+new Function("return " + string)()
+...
+
+
 
