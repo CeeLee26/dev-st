@@ -180,6 +180,13 @@ n % 2;
 n % 2 == 1;
 ...
 
+Number.isInteger(n)
+Number.isFinite(n)
+typeof n == "number"
+n === +n
+...
+
+
 ____________________________________________________________
 Bad Practice(s)
 
@@ -192,5 +199,5 @@ ____________________________________________________________
 Lookup
 
 Math.trunc?
-Number.isInteger? vs Number.isFinite?
+
 
