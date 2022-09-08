@@ -130,6 +130,10 @@ variable1 && !variable2;
 [...array].reduce((a, n) => a + n);
 ...
 
+[String(s)].sort().reverse()
+[String].sort((s, b) => b - s) //subtraction converts number(s)
+...
+
 ____________________________________________________________
 Group similar code strategy:
 
