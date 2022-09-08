@@ -185,6 +185,7 @@ n === +n
 n === Number(n)
 n.constructor === Number
 n.constructor.name == "Number"
+!(n.length >= 0) //number do not have property or methods
 ...
 
 
