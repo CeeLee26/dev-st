@@ -184,5 +184,9 @@ Function("return " + string)(); //function scoped?
 new Function("return " + string)(); //function scoped?
 ...
 
+____________________________________________________________
+Lookup
 
+Math.trunc?
+Number.isInteger? vs Number.isFinite?
 
