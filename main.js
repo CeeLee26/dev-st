@@ -174,14 +174,17 @@ n % 2;
 n % 2 == 1;
 ...
 
-Number.parseInt()
-parseInt()
-~~
-Math.floor()
+Number.parseInt(n)
+parseInt(n)
+~~n
+Math.floor(n)
 Number.isInteger(n)
 Number.isFinite(n)
 typeof n == "number"
 n === +n
+n === Number(n)
+n.constructor === Number
+n.constructor.name == "Number"
 ...
 
 
@@ -197,5 +200,7 @@ ____________________________________________________________
 Lookup
 
 Math.trunc?
+isNaN?
+...
 
 
