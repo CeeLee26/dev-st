@@ -193,6 +193,9 @@ Function("return " + string)(); //function scoped?
 new Function("return " + string)(); //function scoped?
 ...
 
+while(given--)
+while(given-- > 0)
+while(given > 0) {given--}
 ____________________________________________________________
 Lookup
 
