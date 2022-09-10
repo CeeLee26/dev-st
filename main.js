@@ -202,6 +202,18 @@ while(given > 0) {given--}
 filter(__, idx => idx < _)
 .split("", _).join("")
 ...
+
+str
+.split(").some(char => char == ?)
+.includes(?)
+.match(?)
+.indexOf(?) >= 0
+.split(").find(char => char == ?)
+.split(").filter(char => char == ?).length
+
+?.test(str)
+...
+
 ____________________________________________________________
 Lookup
 
