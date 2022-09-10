@@ -196,6 +196,12 @@ new Function("return " + string)(); //function scoped?
 while(given--)
 while(given-- > 0)
 while(given > 0) {given--}
+...
+
+.slice(incl, _)
+filter(__, idx => idx < _)
+.split("", _).join("")
+...
 ____________________________________________________________
 Lookup
 
