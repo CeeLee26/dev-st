@@ -210,8 +210,11 @@ str
 .indexOf(?) >= 0
 .split(").find(char => char == ?)
 .split(").filter(char => char == ?).length
-
 ?.test(str)
+...
+
+~arr.indexOf(subarray) //w/in array
+?  ? : :
 ...
 
 ____________________________________________________________
