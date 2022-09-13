@@ -127,7 +127,9 @@ variable1 > variable2;
 variable1 && !variable2;
 ...
 
-[...array].reduce((a, n) => a + n);
+
+Rest parameter is array in code block
+aka (...args) {args.ARR_METHOD}
 ...
 
 ____________________________________________________________
@@ -219,6 +221,7 @@ Exist? Cond ? Cond true : Cond false : non-existent
 
 [subarr, subarray] = str.split(")
 ...
+
 ____________________________________________________________
 Lookup
 
