@@ -149,7 +149,7 @@ return [...array].filter(char => ![...array1].includes(char));
 [...array].length = Math.min(n, [...array].length); (no undefined)
 ...
 
-[...new Set([...array])]; // does not work with keyword
+[...new Set([...array])]; // does not work w/o keyword
 ![].includes(l) [].push(l);
 [...array].filter((l, x) => [...array].indexOf(l) == x);
 ...
