@@ -214,9 +214,11 @@ str
 ...
 
 ~arr.indexOf(subarray) //w/in array
-?  ? : :
+Exist? Cond ? Cond true : Cond false : non-existent
 ...
 
+[subarr, subarray] = str.split(")
+...
 ____________________________________________________________
 Lookup
 
