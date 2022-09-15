@@ -112,7 +112,7 @@ function getLength(array, count = 0, p = 0) {
     3rd call to getLength, parameter(s) is paired to argument. The count variable is reassigned to 3, and p is reassigned to 3.
     4th call to getLength, parameter(s) is paired to argument. The count variable is 4, and p is 4. 
     5th call to getLength, parameter(s) is paired to argument. The count variable is 5, and p is 5.
-    6th call to getLength, parameter(s) is paired to argument. The count variable of 5 is returned because array[5] is -1 and !(-1) equals truthy 1.*/
+    6th call to getLength, parameter(s) is paired to argument. The count variable of 5 is returned because p is an index of 5 which is not a subarray (the now false condition is made true with !).*/
 
 }
 const arrLen = getLength([1, 2, 3, 4, 5];
