@@ -197,7 +197,7 @@ str
 ...
 
 ~arr.indexOf(subarray) //w/in array
-Exist(truthy) ? Cond ? Cond true : Cond false : non-existent(falsy)
+Exist ? Cond ? Cond true : Cond false : non-existent
 ...
 
 [subarr, subarray] = str.split(")
@@ -216,6 +216,13 @@ variable1 && !variable2;
 Rest parameter is array in code block
 aka (...args) {args.ARR_METHOD}
 (n1, n2, n3) {arguments.length //(ONLY)} 
+...
+
+_______________________________________________
+Code edge case(s):
+
+.reduce(fxn,0)
+truthy ? Cond ? Cond true : Cond false : falsy
 ...
 ____________________________________________________________
 Bad Practice(s)
