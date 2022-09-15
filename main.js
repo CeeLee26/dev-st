@@ -120,21 +120,9 @@ const arrLen = getLength([1, 2, 3, 4, 5];
 console.log(arrLen); //5
 
 ____________________________________________________________
-FYI:
 
-variable1 == true && variable2 == false;
-variable1 > variable2;
-variable1 && !variable2;
-...
-
-
-Rest parameter is array in code block
-aka (...args) {args.ARR_METHOD}
-(n1, n2, n3) {arguments.length //(ONLY)} //3
-...
-
-____________________________________________________________
 Group similar code strategy:
+____________________________
 
 Buffer(str)
 str.split("").join("")
@@ -162,8 +150,9 @@ continue (skip current and continue looping)
 blank after if statement
 ...
 
-________________________________________________________________________
+
 Practicing:
+___________
 
 [...Array(n + ).keys].splice(1) //consecutive array
 ...
@@ -187,15 +176,6 @@ n.constructor.name == "Number"
 !(n.length >= 0) //number do not have property or methods
 ...
 
-
-____________________________________________________________
-Bad Practice(s)
-
-eval([...array].join("+"); //global?
-Function("return " + string)(); //function scoped?
-new Function("return " + string)(); //function scoped?
-...
-
 while(given--)
 while(given-- > 0)
 while(given > 0) {given--}
@@ -217,18 +197,36 @@ str
 ...
 
 ~arr.indexOf(subarray) //w/in array
-Exist (truthy) ? Cond ? Cond true : Cond false : non-existent (falsy)
+Exist(truthy) ? Cond ? Cond true : Cond false : non-existent(falsy)
 ...
 
 [subarr, subarray] = str.split(")
 ...
 
+
+FYI:
+____
+
+variable1 == true && variable2 == false;
+variable1 > variable2;
+variable1 && !variable2;
+...
+
+
+Rest parameter is array in code block
+aka (...args) {args.ARR_METHOD}
+(n1, n2, n3) {arguments.length //(ONLY)} 
+...
+____________________________________________________________
+Bad Practice(s)
+
+eval([...array].join("+"); //global?
+Function("return " + string)(); //function scoped?
+new Function("return " + string)(); //function scoped?
+...
 ____________________________________________________________
 Lookup
 
 Math.trunc?
-isNaN?
 ++ ?
 ...
-
-
