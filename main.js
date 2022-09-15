@@ -217,7 +217,7 @@ str
 ...
 
 ~arr.indexOf(subarray) //w/in array
-Exist? Cond ? Cond true : Cond false : non-existent
+Exist (truthy) ? Cond ? Cond true : Cond false : non-existent (falsy)
 ...
 
 [subarr, subarray] = str.split(")
