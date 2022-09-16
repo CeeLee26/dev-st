@@ -223,6 +223,7 @@ Code edge case(s):
 
 .reduce(fxn,0)
 truthy ? Cond ? Cond true : Cond false : falsy
+n % ii == 0  //ii && !(n % ii)
 ...
 ____________________________________________________________
 Bad Practice(s)
