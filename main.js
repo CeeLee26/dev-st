@@ -228,7 +228,7 @@ n % ii == 0  //ii && !(n % ii)
 ____________________________________________________________
 Bad Practice(s)
 
-eval([...array].join("+"); //global?
+eval([...array].join("+")); //global?
 Function("return " + string)(); //function scoped?
 new Function("return " + string)(); //function scoped?
 ...
