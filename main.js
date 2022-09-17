@@ -122,6 +122,7 @@ console.log(arrLen); //5
 ____________________________________________________________
 
 Group similar code strategy:
+TLDR
 ____________________________
 
 Buffer(str)
