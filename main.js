@@ -122,11 +122,10 @@ console.log(arrLen); //5
 ____________________________________________________________
 
 Group similar code strategy:
-TLDR
 ____________________________
 
 Buffer(str)
-str.split("").join("")
+str.split("").join("") //U
 ...
 
 => [...array1].test(char);
@@ -138,17 +137,17 @@ return [...array].filter(char => ![...array1].includes(char));
 [...array].length = Math.min(n, [...array].length); (no undefined)
 ...
 
-[...new Set([...array])]; // does not work w/o keyword
-![].includes(l) [].push(l);
-[...array].filter((l, x) => [...array].indexOf(l) == x);
+[...new Set([...array])]; //U; does not work w/o keyword
+![].includes(l) [].push(l); //U
+[...array].filter((l, x) => [...array].indexOf(l) == x);//U
 ...
 
 return * (parameter == argument) //int
 ...
 
-continue (skip current and continue looping)
+continue (skip current and continue looping) //U
 ""
-blank after if statement
+blank after if statement //U
 ...
 
 
@@ -159,32 +158,32 @@ ___________
 ...
 
 n & 1;
-n % 2;
-n % 2 == 1;
+n % 2; //U
+n % 2 == 1; //U
 ...
 
-Number.parseInt(n)
-parseInt(n)
+Number.parseInt(n) //U
+parseInt(n) //U
 ~~n
-Math.floor(n)
-Number.isInteger(n)
+Math.floor(n) //U
+Number.isInteger(n) //U
 Number.isFinite(n)
-typeof n == "number"
+typeof n == "number" //U
 n === +n
-n === Number(n)
+n === Number(n) //U
 n.constructor === Number
 n.constructor.name == "Number"
 !(n.length >= 0) //number do not have property or methods
 ...
 
-while(given--)
+while(given--) //U
 while(given-- > 0)
-while(given > 0) {given--}
+while(given > 0) {given--} //U
 ...
 
-.slice(incl, _)
-filter(__, idx => idx < _)
-.split("", _).join("")
+.slice(incl, _) //U
+filter(__, idx => idx < _) //U
+.split("", _).join("") //U
 ...
 
 str
@@ -197,8 +196,8 @@ str
 ?.test(str)
 ...
 
-~arr.indexOf(subarray) //w/in array
-Exist ? Cond ? Cond true : Cond false : non-existent
+~arr.indexOf(subarray) //U; w/in array
+Exist ? Cond ? Cond true : Cond false : non-existent //U
 ...
 
 [subarr, subarray] = str.split(")
@@ -209,7 +208,7 @@ FYI:
 ____
 
 variable1 == true && variable2 == false;
-variable1 > variable2;
+variable1 > variable2; //U
 variable1 && !variable2;
 ...
 
@@ -222,14 +221,14 @@ aka (...args) {args.ARR_METHOD}
 _______________________________________________
 Code edge case(s):
 
-.reduce(fxn,0)
-truthy ? Cond ? Cond true : Cond false : falsy
+.reduce(fxn,0) //U
+truthy ? Cond ? Cond true : Cond false : falsy //U
 n % ii == 0  //ii && !(n % ii)
 ...
 ____________________________________________________________
 Bad Practice(s)
 
-eval([...array].join("+")); //global?
+eval([...array].join("+")); //U; global?
 Function("return " + string)(); //function scoped?
 new Function("return " + string)(); //function scoped?
 ...
