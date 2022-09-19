@@ -199,7 +199,7 @@ str
 ?.test(str)
 ...
 
-~arr.indexOf(subarray) //U; w/in array
+~arr.indexOf(SUBARRAY) //U; w/in array
 Exist ? Cond ? Cond true : Cond false : non-existent //U
 ...
 
@@ -223,12 +223,13 @@ aka (...args) {args.ARR_METHOD} //array name not rest
 
 Math.max(...arr) //U
 arr.sort(...).pop()
-arr.reduce((a, n) => n > a ? n : a, 0) //U
+arr.REDUCE((a, n) => n > a ? n : a, 0) //U*
 ...
 _______________________________________________
 Code edge case(s):
 
 .reduce(fxn,0) //U
+.reduce((res, next) => res + (res == next),0) //U* [0,1,3]
 truthy ? Cond ? Cond true : Cond false : falsy //U
 n % ii == 0  //ii && !(n % ii)
 ...
@@ -255,4 +256,7 @@ Math.floor(n, ?) //U
 return Math.imul(subarr, arr.length)?
 require('lodash').sum(arr)?
 return arr.reduce(sum) //U
+...
+
+new Set() plus has?
 ...
