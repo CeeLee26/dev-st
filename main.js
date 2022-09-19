@@ -223,7 +223,7 @@ aka (...args) {args.ARR_METHOD} //array name not rest
 
 Math.max(...arr) //U
 arr.sort(...).pop()
-arr.reduce((a, n) => n > a ? n : a, 0)
+arr.reduce((a, n) => n > a ? n : a, 0) //U
 ...
 _______________________________________________
 Code edge case(s):
