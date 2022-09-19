@@ -240,7 +240,10 @@ new Function("return " + string)(); //function scoped?
 ____________________________________________________________
 Lookup
 
-Math.trunc?
+Math.trunc(n)?
+n/1 |0?
+n/1 ^ 0?
+Math.floor(n) //U
 ...
 
 ++?
@@ -249,9 +252,4 @@ Math.trunc?
 return Math.imul(subarr, arr.length)?
 require('lodash').sum(arr)?
 return arr.reduce(sum) //U
-...
-
-n/1 |0?
-n/1 ^ 0?
-Math.floor(n) //U
 ...
