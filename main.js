@@ -119,7 +119,7 @@ const arrLen = getLength([1, 2, 3, 4, 5];
 
 console.log(arrLen); //5
 
-____________________________________________________________
+_TLDR___________________________________________________________
 
 Group similar code strategy:
 ____________________________
@@ -239,6 +239,12 @@ ____________________________________________________________
 Lookup
 
 Math.trunc?
+...
+
 ++?
-Math.imul(a, b)? //===.reduce(sum)
+...
+
+return Math.imul(subarr, arr.length)?
+require('lodash').sum(arr)?
+return arr.reduce(sum) //U
 ...
