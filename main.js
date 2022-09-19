@@ -166,7 +166,7 @@ n/1 |0
 n/1 ^ 0
 Number.parseInt(n) //U
 parseInt(n) //U
-~~n
+~~n //caveat, division by not is zeroed
 Math.floor(n) //U
 Number.isInteger(n) //U
 Number.isFinite(n)
