@@ -220,8 +220,9 @@ aka (...args) {args.ARR_METHOD} //array name not rest
 (n1, n2, n3) OR () {arguments.length //(ONLY)} //U; destructuring, spreading, looping
 ...
 
-Math.min(...arr) //U
+Math.max(...arr) //U
 arr.sort(...).pop()
+arr.reduce((a, n) => n > a ? n : a, 0)
 ...
 _______________________________________________
 Code edge case(s):
