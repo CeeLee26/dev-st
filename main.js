@@ -215,7 +215,7 @@ variable1 && !variable2;
 
 Rest parameter is array in code block
 aka (...args) {args.ARR_METHOD}
-(n1, n2, n3) {arguments.length //(ONLY)} //U
+(n1, n2, n3) {arguments.length //(ONLY)} //U; destructuring or arraying
 ...
 
 _______________________________________________
