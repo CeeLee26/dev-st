@@ -215,7 +215,7 @@ variable1 && !variable2;
 
 Rest parameter is array in code block
 aka (...args) {args.ARR_METHOD} //array name not rest
-(n1, n2, n3) OR () {arguments.length //(ONLY)} //U; destructuring or spreading
+(n1, n2, n3) OR () {arguments.length //(ONLY)} //U; destructuring, spreading, looping
 ...
 
 Math.min(...arr) //U
