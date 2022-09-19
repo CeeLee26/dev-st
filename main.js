@@ -243,7 +243,7 @@ Lookup
 Math.trunc(n)?
 n/1 |0?
 n/1 ^ 0?
-Math.floor(n) //U
+Math.floor(n, ?) //U
 ...
 
 ++?
