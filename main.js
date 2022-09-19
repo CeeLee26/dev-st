@@ -162,6 +162,8 @@ n % 2; //U
 n % 2 == 1; //U
 ...
 
+n/1 |0
+n/1 ^ 0
 Number.parseInt(n) //U
 parseInt(n) //U
 ~~n
@@ -247,4 +249,9 @@ Math.trunc?
 return Math.imul(subarr, arr.length)?
 require('lodash').sum(arr)?
 return arr.reduce(sum) //U
+...
+
+n/1 |0?
+n/1 ^ 0?
+Math.floor(n) //U
 ...
