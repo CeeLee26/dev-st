@@ -230,6 +230,9 @@ delete subarray or prop Variable
 .splice(i, amt)
 ...
 
+Code and Tell:
+_____________
+
 ({prop Var(s), property Name }){} 
 (obj){}
 
