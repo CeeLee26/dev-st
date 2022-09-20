@@ -229,6 +229,13 @@ arr.REDUCE((a, n) => n > a ? n : a, 0) //U*
 delete subarray or prop Variable
 .splice(i, amt)
 ...
+
+({prop Var(s), property Name }){} 
+(obj){}
+
+([subarr, subarray]){}
+(arr){}
+...
 _______________________________________________
 Code edge case(s):
 
