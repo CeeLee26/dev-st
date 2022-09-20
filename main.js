@@ -233,7 +233,7 @@ delete subarray or prop Variable
 Code and Tell:
 _____________
 
-({prop Var(s), property Name }){} 
+({prop Var(s), props Name }){} 
 (obj){}
 
 ([subarr, subarray]){}
