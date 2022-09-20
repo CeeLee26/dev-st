@@ -134,7 +134,7 @@ return [...array].filter(char => ![...array1].includes(char));
 };
 ...
 
-[...array].length = Math.min(n, [...array].length); (no undefined)
+[...array].length = Math.min(n, [...array].length); (no undefined or holes n0t even after .join())
 ...
 
 [...new Set([...array])]; //U; does not work w/o keyword
@@ -224,6 +224,10 @@ aka (...args) {args.ARR_METHOD} //array name not rest
 Math.max(...arr) //U
 arr.sort(...).pop()
 arr.REDUCE((a, n) => n > a ? n : a, 0) //U*
+...
+
+delete subarray or prop Variable
+.splice(i, amt)
 ...
 _______________________________________________
 Code edge case(s):
