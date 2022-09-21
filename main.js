@@ -119,7 +119,7 @@ const arrLen = getLength([1, 2, 3, 4, 5];
 
 console.log(arrLen); //5
 
-_TLDR___________________________________________________________
+_TLDR_(tangents)__________________________________________________________
 
 Group similar code strategy:
 ____________________________
@@ -166,7 +166,7 @@ n/1 |0
 n/1 ^ 0
 Number.parseInt(n) //U
 parseInt(n) //U
-~~n //caveat, division by not is zeroed
+~~n //caveat, division by not is zeroed??
 Math.ceil(n) - 1
 Math.floor(n) //U
 Number.isInteger(n) //U
