@@ -239,6 +239,9 @@ _____________
 ([subarr, subarray]){}
 (arr){}
 ...??
+
+(ternary operator) //flexible insert
+...
 _______________________________________________
 Code edge case(s):
 
