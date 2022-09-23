@@ -238,7 +238,7 @@ _____________
 
 ([subarr, subarray]){}
 (arr){}
-... //?
+... //
 
 (ternary operator) //${t. o.}
 (!)!0 //false
