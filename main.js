@@ -242,7 +242,7 @@ _____________
 
 (ternary operator) //parens
 (!)!0 //false
-++true //1
+(+)+true //1
 ...
 _______________________________________________
 Code edge case(s):
