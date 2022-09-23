@@ -240,7 +240,7 @@ _____________
 (arr){}
 ...??
 
-(ternary operator) //flexible insert
+(ternary operator) //parens
 ...
 _______________________________________________
 Code edge case(s):
