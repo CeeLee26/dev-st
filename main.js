@@ -263,6 +263,10 @@ reName = function(givenParams){
 
 < <br><br>     
 ... //lower ms
+
+return (...);
+<.../>
+... //Rxt
 ____________________________________________________________
 Bad Practice(s)
 
