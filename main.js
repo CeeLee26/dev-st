@@ -241,6 +241,8 @@ _____________
 ...??
 
 (ternary operator) //parens
+(!)!0 //false
+++true //1
 ...
 _______________________________________________
 Code edge case(s):
@@ -277,5 +279,4 @@ return arr.reduce(sum) //U
 
 new Set() plus has?
 ...
-!! ?
-...
+
