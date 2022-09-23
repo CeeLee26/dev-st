@@ -238,12 +238,16 @@ _____________
 
 ([subarr, subarray]){}
 (arr){}
-...??
+... //?
 
-(ternary operator) //parens
+(ternary operator) //${t. o.}
 (!)!0 //false
 (+)+true //1
 ...
+
+Math.sign(small - big) //?
+small < big ? -1 : 1 //?
+... //?
 _______________________________________________
 Code edge case(s):
 
@@ -263,20 +267,20 @@ ____________________________________________________________
 Lookup
 
 Math.trunc(n)?
-n * 1 | 0?
-n / 1 | 0?
-n / 1 ^ 0?
+n * 1 | 0 //?
+n / 1 | 0 //?
+n / 1 ^ 0 //?
 Math.floor(n, ?) //U
+... //?
+
+++ //?
 ...
 
-++?
-...
-
-return Math.imul(subarr, arr.length)?
-require('lodash').sum(arr)?
+return Math.imul(subarr, arr.length) //?
+require('lodash').sum(arr) //?
 return arr.reduce(sum) //U
 ...
 
-new Set() plus has?
+new Set() plus has //?
 ...
 
