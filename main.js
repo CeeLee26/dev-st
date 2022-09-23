@@ -256,6 +256,11 @@ Code edge case(s):
 truthy ? Cond ? Cond true : Cond false : falsy //U
 n % ii == 0  //ii && !(n % ii)
 ...
+
+reName = function(givenParams){
+  return givenFxn(givenParams);
+}       
+... //lower ms
 ____________________________________________________________
 Bad Practice(s)
 
