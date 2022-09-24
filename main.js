@@ -163,7 +163,7 @@ n % 2 == 1; //U
 ...
 
 n/1 |0
-n/1 ^ 0
+n/1 ^ 0 //n ^ false (int n or n persist) VS n ^ true (n opp)
 Number.parseInt(n) //U
 parseInt(n) //U
 ~~n //caveat division by not is zeroed??
