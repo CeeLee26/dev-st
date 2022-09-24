@@ -166,7 +166,7 @@ n/1 |0
 n/1 ^ 0
 Number.parseInt(n) //U
 parseInt(n) //U
-~~n //caveat (gotchas), division by not is zeroed??
+~~n //caveat division by not is zeroed??
 Math.ceil(n) - 1
 Math.floor(n) //U
 Number.isInteger(n) //U
@@ -254,6 +254,7 @@ Code edge case(s):
 .reduce(fxn,0) //U
 .reduce((res, next) => res + (res == next),0) //U* [0,1,3]
 truthy ? Cond ? Cond true : Cond false : falsy //U
+Truthy || Falsy //gotcha, n0t
 n % ii == 0  //ii && !(n % ii)
 ...
 
