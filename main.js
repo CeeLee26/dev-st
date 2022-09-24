@@ -230,6 +230,9 @@ delete subarray or prop Variable
 .splice(i, amt)
 ...
 
+count && arr.length
+...
+
 Code and Tell:
 _____________
 
@@ -243,7 +246,7 @@ _____________
 (ternary operator) //${t. o.}
 (!)!0 //false
 (+)+true //1
-...
+...?
 
 Math.sign(small - big) //?
 small < big ? -1 : 1 //?
