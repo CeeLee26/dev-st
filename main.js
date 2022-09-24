@@ -236,7 +236,7 @@ _____________
 ({prop Var(s), props Name }){} 
 (obj){}
 
-([subarr, subarray]){}
+([subarr, subarray, ...elem(s)]){}
 (arr){}
 ... //
 
