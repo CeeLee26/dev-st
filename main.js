@@ -264,7 +264,7 @@ n % ii == 0  //ii && !(n % ii)
 
 reName = function(givenParams){
   return givenFxn(givenParams);
-}                                //helper fxn
+}                                //helper fxn (pure fxn)
 
 < <br><br>     
 ... //lower ms
