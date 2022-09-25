@@ -257,7 +257,7 @@ Code edge case(s):
 .reduce(fxn,0) //U
 .reduce((res, next) => res + (res == next),0) //U* [0,1,3]
 truthy ? Cond ? Cond true : Cond false : falsy //U
-Truthy || Falsy //gotcha, n0t
+Truthy || Falsy //gotcha, n0t (w/o ??)
 dynamic ?? default
 n % ii == 0  //ii && !(n % ii)
 ...
