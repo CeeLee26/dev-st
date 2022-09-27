@@ -251,6 +251,8 @@ _____________
 Math.sign(small - big) //?
 small < big ? -1 : 1 //?
 ... //?
+
+!.some(fxn) == .every(e => !fxn(e))
 _______________________________________________
 Code edge case(s):
 
