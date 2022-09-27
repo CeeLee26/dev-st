@@ -23,7 +23,7 @@ console.log(updateArr); //[7, 17, 70]
      reassigns their value by the 
      concatenation of the variable. When the 
      loop ends, the changed subarrays populate 
-     the original array (modified the array in place).*/
+     the original array (modified the array in place (the subarrays will always be within bounds).).*/
 
 ___________________________________________________________________________________
 
