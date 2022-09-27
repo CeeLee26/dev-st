@@ -302,5 +302,9 @@ return arr.reduce(sum) //U
 new Set() plus has //?
 ...
 
-~ >> ?
+~? >>?
+...
+
+Obj.getOwnPropertyNames?
+...
 
