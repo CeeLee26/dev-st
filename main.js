@@ -210,14 +210,6 @@ Exist ? Cond ? Cond true : Cond false : non-existent //U
 FYI:
 ____
 
-variable1 == true && variable2 == false;
-variable1 > variable2; //U
-variable1 && !variable2;
-...
-
-
-Rest parameter is array in code block
-aka (...args) {args.ARR_METHOD} //array name not rest
 (n1, n2, n3) OR () {arguments.length //(ONLY)} //U; destructuring, spreading, looping
 ...
 
@@ -230,18 +222,9 @@ delete subarray or prop Variable
 .splice(i, amt)
 ...
 
-count && arr.length
-...
 
 Code and Tell:
 _____________
-
-({prop Var(s), props Name }){} 
-(obj){}
-
-([subarr, subarray, ...elem(s)]){}
-(arr){}
-... //
 
 (ternary operator) //${t. o.}
 (!)!0 //false
@@ -279,22 +262,9 @@ reName = function(givenParams){
 return (...);
 <.../>
 ... //Rxt
-____________________________________________________________
-Bad Practice(s)
 
-eval([...array].join("+")); //U; global?
-Function("return " + string)(); //function scoped?
-new Function("return " + string)(); //function scoped?
-...
 ____________________________________________________________
 Lookup
-
-Math.trunc(n)?
-n * 1 | 0 //?
-n / 1 | 0 //?
-n / 1 ^ 0 //?
-Math.floor(n, ?) //U
-... //?
 
 ++ //?
 ...
@@ -307,7 +277,8 @@ return arr.reduce(sum) //U
 new Set() plus has //?
 ...
 
-~? >>?
+~? 
+>>? (true > false)
 ...
 
 Obj.getOwnPropertyNames?
