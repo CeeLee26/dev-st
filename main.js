@@ -154,7 +154,7 @@ blank after if statement //U
 Practicing:
 ___________
 
-[...Array(n + ).keys].splice(1) //consecutive array
+[...Array(n + ).keys].slice(1) //consecutive array
 ...
 
 n & 1;
@@ -176,12 +176,7 @@ n === +n
 n === Number(n) //U
 n.constructor === Number
 n.constructor.name == "Number"
-!(n.length >= 0) //number do not have property or methods
-...
-
-while(given--) //U
-while(given-- > 0)
-while(given > 0) {given--} //U
+!(n.length >= 0) //number obj do not have property or methods
 ...
 
 .slice(incl, _) //U
@@ -200,6 +195,7 @@ str
 ...
 
 ~arr.indexOf(SUBARRAY) //U; w/in array
+...
 Exist ? Cond ? Cond true : Cond false : non-existent //U
 ...
 
@@ -278,7 +274,7 @@ new Set() plus has //?
 ...
 
 ~? 
->>? (true > false)
+>>? //true > false
 ...
 
 Obj.getOwnPropertyNames?
