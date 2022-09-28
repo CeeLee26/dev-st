@@ -162,6 +162,7 @@ n % 2; //U
 n % 2 == 1; //U
 ...
 
+!(n % 1)
 n/1 |0
 n/1 ^ 0 //n ^ false (int n or n persist) VS n ^ true (n opp)
 Number.parseInt(n) //U
