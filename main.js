@@ -279,7 +279,7 @@ new Set() plus has //?
 ...
 
 ~? 
->>? //true > false
+>>? // ÷ 2 and truncate
 ...
 
 Obj.getOwnPropertyNames?
