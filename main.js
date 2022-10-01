@@ -235,8 +235,8 @@ small < big ? -1 : 1 //?
 !.some(fxn) == .every(e => !fxn(e))
 ...
 
-/.\b/ //pos $
-/\b ./ //pos ^
+.replace(/.\b/ //pos $
+"/\b ./ //pos ^
 ...
 _______________________________________________
 Code edge case(s):
