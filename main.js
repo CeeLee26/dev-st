@@ -236,7 +236,19 @@ small < big ? -1 : 1 //?
 ...
 
 .replace(/.\b/ //pos $
-"/\b ./ //pos ^
+" /\b ./ //pos ^
+...
+
+return (...);
+<.../>
+... //Rxt
+
+[].+[]
+[].+(...array)
+[].flat()
+...
+
+.indexOf(s[ii]) == .lastIndexOf(s[ii]) //non-repeat
 ...
 _______________________________________________
 Code edge case(s):
@@ -254,15 +266,12 @@ reName = function(givenParams){
 }                                //helper fxn (pure fxn)
 
 < <br><br>     
-... //lower ms
+... //lower ms inc performance
 
-return (...);
-<.../>
-... //Rxt
+______________________________________________
+Bad Practice 
 
-[].+[]
-[].+(...array)
-[].flat()
+for - in 4 [...arr]
 ...
 ____________________________________________________________
 Lookup
