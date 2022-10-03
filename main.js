@@ -285,7 +285,9 @@ return arr.reduce(sum) //U
 ...
 
 new Set() plus has //?
-new Set([...arr].size //code & tell
+new Set([...arr]).size //code & tell
+new Set().size //code & tell
+
 ...
 
 ~? 
