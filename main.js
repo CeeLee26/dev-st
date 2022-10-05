@@ -268,10 +268,11 @@ reName = function(givenParams){
 < <br><br>     
 ... //lower ms inc performance
 
+for - of & for - in //""; ''; ``
 ______________________________________________
 Bad Practice 
 
-for - in 4 [...arr]
+for - in 4 [...arr] //ONLY
 ...
 ____________________________________________________________
 Lookup
