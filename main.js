@@ -263,8 +263,9 @@ n % ii == 0  //ii && !(n % ii)
 
 reName = function(givenParams){
   return givenFxn(givenParams);
-}                                //helper fxn (pure fxn)
+}??                                //helper fxn (pure fxn)
 
+Obj mapping ...
 < <br><br>     
 ... //lower ms inc performance
 
