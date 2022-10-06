@@ -215,7 +215,8 @@ arr.sort(...).pop()
 arr.REDUCE((a, n) => n > a ? n : a, 0) //U*
 ...
 
-delete subarray or prop Variable
+new Set[...arr].delete(subarray)
+delete subarray (plus flat()) or prop Variable
 .splice(i, amt)
 ...
 
