@@ -256,7 +256,7 @@ return <>...
 _______________________________________________
 Code edge case(s):
 
-.reduce(fxn,0) //U
+.reduce(fxn,0) //U; == for, for-of
 .reduce((res, next) => res + (res == next),0) //U* [0,1,3]
 truthy ? Cond ? Cond true : Cond false : falsy //U
 Truthy || Falsy //gotcha, n0t (w/o ??)
