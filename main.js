@@ -273,6 +273,12 @@ Obj mapping ...
 ... //lower ms inc performance
 
 for - of & for - in //""; ''; ``
+...
+
+Math.floor(Math.random() * 10 + 1)
+Math.floor((Math.random() * 10) + 1)
+Math.ceil(Math.random() * 10)
+...
 ______________________________________________
 Bad Practice 
 
