@@ -261,6 +261,7 @@ Code edge case(s):
 truthy ? Cond ? Cond true : Cond false : falsy //U
 Truthy || Falsy //gotcha, n0t (w/o ??)
 dynamic ?? default
+Truthy/ falsy ? Truthy res : falsy res
 n % ii == 0  //ii && !(n % ii)
 ...
 
