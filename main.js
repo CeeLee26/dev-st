@@ -137,8 +137,6 @@ return [...array].filter(char => ![...array1].includes(char));
 [...array].length = Math.min(n, [...array].length); (no undefined or holes n0t even after .join())
 ...
 
-[...new Set([...array])]; //U; does not work w/o keyword
-![].includes(l) [].push(l); //U
 [...array].filter((l, x) => [...array].indexOf(l) == x);//U
 ...
 
@@ -210,9 +208,7 @@ ____
 (n1, n2, n3) OR () {arguments.length //(ONLY)} //U; destructuring, spreading, looping
 ...
 
-Math.max(...arr) //U
 arr.sort(...).pop()
-arr.REDUCE((a, n) => n > a ? n : a, 0) //U*
 ...
 
 new Set[...arr].delete(subarray)
@@ -294,12 +290,6 @@ Lookup
 return Math.imul(subarr, arr.length) //?
 require('lodash').sum(arr) //?
 return arr.reduce(sum) //U
-...
-
-new Set() plus has //?
-new Set([...arr]).size //code & tell
-new Set().size //code & tell
-
 ...
 
 ~? 
