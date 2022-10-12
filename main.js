@@ -124,7 +124,7 @@ _TLDR_(tangents)__________________________________________________________
 Group similar code strategy:
 ____________________________
 
-Buffer(str)
+Buffer(str) //u
 str.split("").join("") //U
 ...
 
