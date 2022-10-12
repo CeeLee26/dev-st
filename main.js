@@ -152,7 +152,7 @@ blank after if statement //U
 Practicing:
 ___________
 
-[...Array(n + ).keys].slice(1) //consecutive array
+[...Array(n + ).keys()].slice(1) //consecutive array
 ...
 
 n & 1;
