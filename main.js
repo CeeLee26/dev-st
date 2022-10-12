@@ -293,7 +293,7 @@ return arr.reduce(sum) //U
 ...
 
 ~? 
->>? // ÷ 2 and truncate
+>> 1 // ÷ 2 and truncate (Educated guess)
 ...
 
 Obj.getOwnPropertyNames?
