@@ -276,6 +276,12 @@ Math.floor(Math.random() * 10 + 1)
 Math.floor((Math.random() * 10) + 1)
 Math.ceil(Math.random() * 10)
 ...
+
+extends //persist methods
+constructor(){ //variables if not hard-coded
+super();} //persist props
+super. //thwarts overwrite
+...
 ______________________________________________
 Bad Practice 
 
