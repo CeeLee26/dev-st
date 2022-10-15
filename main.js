@@ -229,7 +229,13 @@ Math.sign(small - big) //?
 small < big ? -1 : 1 //?
 ... //?
 
-!.some(fxn) == .every(e => !fxn(e))
+!.some(fxn)  
+.every(e => !fxn(e))
+...
+
+.some(fxn)
+.filter(fxn).length > 0
+Boolean(.filter(fxn).length)
 ...
 
 .replace(/.\b/ //pos $
