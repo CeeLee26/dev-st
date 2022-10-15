@@ -221,7 +221,7 @@ Code and Tell:
 _____________
 
 (ternary operator) //${t. o.}
-(!)!0 //false
+!!0 //false (Educated guess)
 (+)+true //1
 ...?
 
