@@ -267,9 +267,10 @@ Truthy/ falsy ? Truthy res : falsy res
 n % ii == 0  //ii && !(n % ii)
 ...
 
-reName = function(givenParams){
-  return givenFxn(givenParams);
-}??                                //helper fxn (pure fxn)
+keyword givenFunName = (givenParams || ) => givenFunRename(givenParams || )
+keyword reName2GivenFxn = function(givenParams){
+  return givenFxnRename(givenParams);
+}?? < char          //helper fxn (pure fxn)
 
 Obj mapping ...
 < <br><br>     
