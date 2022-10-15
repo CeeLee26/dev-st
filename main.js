@@ -288,6 +288,11 @@ constructor(){ //variables if not hard-coded
 super();} //persist props
 super. //thwarts overwrite
 ...
+
+arr[arr.length] = l
+arr.push(l)
+arr = [...arr, l]
+...
 ______________________________________________
 Bad Practice 
 
