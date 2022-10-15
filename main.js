@@ -286,8 +286,8 @@ Math.ceil(Math.random() * 10)
 
 extends //persist methods
 constructor(){ //variables if not hard-coded
-super();} //persist props
-super. //thwarts overwrite
+super();} //persist props super(...arguments)
+super.method() //thwarts overwrite
 ...
 
 arr[arr.length] = l
