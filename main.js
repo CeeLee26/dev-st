@@ -300,7 +300,16 @@ Bad Practice
 for - in 4 [...arr] //ONLY
 ...
 ____________________________________________________________
-Lookup
+Lookup - daily hwk
+match => [...arr]
+replace //str persist w/o
+...
+
+,
+&&
+() //if not on same line
+return
+... @ keyword
 
 ++ //?
 ...
