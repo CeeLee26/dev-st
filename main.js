@@ -211,7 +211,8 @@ ____
 arr.sort(...).pop()
 ...
 
-new Set[...arr].delete(subarray) //u
+new Set([...arr]).delete(subarray) //
+new Set(str)
 delete subarray (plus flat()) or prop Variable
 .splice(i, amt)
 ...
