@@ -308,6 +308,7 @@ replace //str persist w/o
 
 ,
 &&
+&
 () //if not on same line
 return
 ... @ keyword
