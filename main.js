@@ -182,8 +182,8 @@ Math.sign(small - big) //?
 small < big ? -1 : 1 //?
 ... //?
 
-.replace(/.\b/ //pos $)
-        (/\b ./ //pos ^)
+.replace(/. \b/) //pos $
+        (/\b ./) //pos ^
 ...
 
 .indexOf(s[ii]) == .lastIndexOf(s[ii]) //non-repeat
