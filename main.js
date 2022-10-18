@@ -124,20 +124,15 @@ _TLDR_(tangents)__________________________________________________________
 Group similar code strategy:
 ____________________________
 
-Buffer(str) //u
-str.split("").join("") //U
-...
-
 => [...array1].test(char);
 return fxName.pop([...array1]);
 return [...array].filter(char => ![...array1].includes(char));
 };
+[...array].filter((l, x) => [...array].indexOf(l) == x);//U
 ...
+
 
 [...array].length = Math.min(n, [...array].length); (no undefined or holes n0t even after .join())
-...
-
-[...array].filter((l, x) => [...array].indexOf(l) == x);//U
 ...
 
 return * (parameter == argument) //int
@@ -155,74 +150,31 @@ ___________
 [...Array(n + ).keys()].slice(1) //consecutive array
 ...
 
-n & 1;
+n & 1; //even: n & 1 == 0
 n % 2; //U
-n % 2 == 1; //U
 ...
 
-!(n % 1)
 n/1 |0
 n/1 ^ 0 //n ^ false (int n or n persist) VS n ^ true (n opp)
-Number.parseInt(n) //U
-parseInt(n) //U
 ~~n //caveat division by not is zeroed??  (> 0)
-Math.ceil(n) - 1
-Math.floor(n) //U
+...
+
+Math.ceil(int) //input int
+...
+
 Number.isInteger(n) //U
 Number.isFinite(n)
-typeof n == "number" //U
-n === +n
-n === Number(n) //U
 n.constructor === Number
 n.constructor.name == "Number"
-!(n.length >= 0) //number obj do not have property or methods
 ...
-
-.slice(incl, _) //U
-filter(__, idx => idx < _) //U
-.split("", _).join("") //U
-...
-
-str
-.split(").some(char => char == ?)
-.includes(?)
-.match(?)
-.indexOf(?) >= 0
-.split(").find(char => char == ?)
-.split(").filter(char => char == ?).length
-?.test(str)
-...
-
-~arr.indexOf(SUBARRAY) //U; w/in array
-...
-Exist ? Cond ? Cond true : Cond false : non-existent //U
-...
-
-[subarr, subarray] = str.split(")
-...
-
 
 FYI:
 ____
-
-(n1, n2, n3) OR () {arguments.length //(ONLY)} //U; destructuring, spreading, looping
-...
-
-arr.sort(...).pop()
-...
-
-new Set([...arr]).delete(subarray) //
-new Set(str)
-delete subarray (plus flat()) or prop Variable
-.splice(i, amt)
-...
 
 
 Code and Tell:
 _____________
 
-(ternary operator) //${t. o.}
-!!0 //false (Educated guess)
 (+)+true //1
 ...?
 
@@ -230,41 +182,20 @@ Math.sign(small - big) //?
 small < big ? -1 : 1 //?
 ... //?
 
-!.some(fxn)  
-.every(e => !fxn(e))
-...
-
-.some(fxn)
-.filter(fxn).length > 0
-Boolean(.filter(fxn).length)
-...
-
 .replace(/.\b/ //pos $
 " /\b ./ //pos ^
-...
-
-return (...
-        );
-return <>...
-       </>;
-... //Rxt
-
-[].+[]
-[].+(...array)
-[].flat()
 ...
 
 .indexOf(s[ii]) == .lastIndexOf(s[ii]) //non-repeat
 ...
 _______________________________________________
 Code edge case(s): //higher order fxn == array methods
+__________________
 
-[...arr].reduce(fxn,0) //U; == for, for-of
-.reduce((res, next) => res + (res == next),0) //U* [0,1,3]
-truthy ? Cond ? Cond true : Cond false : falsy //U
 Truthy || Falsy //gotcha, n0t (w/o ??)
 dynamic ?? default
-Truthy/ falsy ? Truthy res : falsy res
+...
+
 n % ii == 0  //ii && !(n % ii)
 ...
 
@@ -277,8 +208,6 @@ Obj mapping ...
 < <br><br>     
 ... //lower ms inc performance
 
-for - of & for - in //""; ''; ``
-...
 
 Math.floor(Math.random() * 10 + 1)
 Math.floor((Math.random() * 10) + 1)
@@ -291,20 +220,16 @@ super();} //persist props super(...arguments)
 super.method() //thwarts overwrite
 ...
 
-arr[arr.length] = l
-arr.push(l)
-arr = [...arr, l]
+arr[arr.length] = l //O(1)
+arr.push(l) //O(1)
+arr = [...arr, l] //O(n)
 ...
 ______________________________________________
 Bad Practice 
 
-for - in 4 [...arr] //ONLY
-...
 ____________________________________________________________
 Lookup - daily hwk
-match => [...arr]
-replace //str persist w/o
-...
+__________________
 
 ,
 &&
@@ -327,4 +252,3 @@ return arr.reduce(sum) //U
 
 Obj.getOwnPropertyNames?
 ...
-
