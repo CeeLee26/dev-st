@@ -183,7 +183,7 @@ small < big ? -1 : 1 //?
 ... //?
 
 .replace(/.\b/ //pos $
-" /\b ./ //pos ^
+\" /\b ./ //pos ^
 ...
 
 .indexOf(s[ii]) == .lastIndexOf(s[ii]) //non-repeat
