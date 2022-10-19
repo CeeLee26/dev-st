@@ -233,8 +233,11 @@ __________________
 'a'.charCodeAt() //97
 ...
 
-! (like w &) //~-???
+Array.from(str||hash||node, fxn)
+...
 
+! (like w &) //~-
+...??
 ,
 &&
 &
