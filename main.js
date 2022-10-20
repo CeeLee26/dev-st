@@ -170,7 +170,7 @@ n.constructor.name == "Number"
 
 FYI:
 ____
-
++undefined //NaN
 
 Code and Tell:
 _____________
