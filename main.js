@@ -170,7 +170,7 @@ n.constructor.name == "Number"
 
 FYI:
 ____
-+undefined //NaN
+? + undefined //NaN
 
 Code and Tell:
 _____________
@@ -220,17 +220,19 @@ super();} //persist props super(...arguments)
 super.method() //thwarts overwrite
 ...
 
-arr[arr.length] = l //O(1)
+arr[arr.length] = l //O(1) //arr.length????
 arr.push(l) //O(1)
 arr = [...arr, l] //O(n)
 ...
 ______________________________________________
 Bad Practice 
-
+____________
+ 
+Time and Space big o ignorance
 ____________________________________________________________
 Lookup - daily hwk
 __________________
-'a'.charCodeAt() //97
+Obj, hash, ...
 ...
 
 Array.from(str||hash||node, fxn)
@@ -238,6 +240,7 @@ Array.from(str||hash||node, fxn)
 
 ! (like w &) //~-
 ...??
+
 ,
 &&
 &
