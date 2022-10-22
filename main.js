@@ -193,6 +193,7 @@ Code edge case(s): //higher order fxn == array methods
 __________________
 
 Truthy || Falsy //gotcha, n0t (w/o ??)
+               //else return yea yea yea
 dynamic ?? default
 ...
 
