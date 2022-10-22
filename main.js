@@ -241,6 +241,9 @@ Array.from(str||hash||node, fxn)
 ! (like w &) //~-
 ...??
 
+/^[]$/i //String.length == 1
+...
+
 ,
 &&
 &
