@@ -131,7 +131,6 @@ return [...array].filter(char => ![...array1].includes(char));
 [...array].filter((l, x) => [...array].indexOf(l) == x);//U
 ...
 
-
 [...array].length = Math.min(n, [...array].length); (no undefined or holes n0t even after .join())
 ...
 
@@ -154,6 +153,8 @@ n & 1; //even: (n & 1) == 0
 n % 2; //U
 ...
 
+Number.parseInt //Not Math.floor
+Math.trunc
 n/1 |0
 n/1 ^ 0 //n ^ false (int n or n persist) VS n ^ true (n opp)
 ~~n //caveat division by not is zeroed??  (> 0)
@@ -233,6 +234,12 @@ Time and Space big o ignorance
 ____________________________________________________________
 Lookup - daily hwk
 __________________
+undefined //iso member
+...
+
+-1 //iso index
+...
+
 ^ //in vs out
 
 [] = []
