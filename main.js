@@ -257,6 +257,11 @@ Array.from(str||hash||node, fxn)
 /^[]$/i //String.length == 1
 ...
 
+*
+&&
+to
+...
+
 ,
 &&
 &
