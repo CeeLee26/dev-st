@@ -149,18 +149,10 @@ ___________
 [...Array(n + ).keys()].slice(1) //consecutive array
 ...
 
-n & 1; //even: (n & 1) == 0
-n % 2; //U
-...
-
-Number.parseInt //Not Math.floor
-Math.trunc
+Math.floor //caveat < 0
 n/1 |0
 n/1 ^ 0 //n ^ false (int n or n persist) VS n ^ true (n opp)
 ~~n //caveat division by not is zeroed??  (> 0)
-...
-
-Math.ceil(int) //input int
 ...
 
 Number.isInteger(n) //U
@@ -186,17 +178,9 @@ small < big ? -1 : 1 //?
 .replace(/. \b/) //pos $
         (/\b ./) //pos ^
 ...
-
-.indexOf(s[ii]) == .lastIndexOf(s[ii]) //non-repeat
-...
 _______________________________________________
-Code edge case(s): //higher order fxn == array methods
+Code edge case(s):
 __________________
-
-Truthy || Falsy //gotcha, n0t (zip) res (w/o ??)
-               //else return only if not expecting n0t as res (yep yep yep)
-dynamic ?? default
-...
 
 n % ii == 0  //ii && !(n % ii)
 ...
@@ -204,15 +188,10 @@ n % ii == 0  //ii && !(n % ii)
 keyword givenFunName = (givenParams || ) => givenFunRename(givenParams || )
 keyword reName2GivenFxn = function(givenParams){
   return givenFxnRename(givenParams);
-}?? < char          //helper fxn (pure fxn)
-
-Obj mapping ...
-< <br><br>     
-... //lower ms inc performance
-
+}
+...
 
 Math.floor(Math.random() * 10 + 1)
-Math.floor((Math.random() * 10) + 1)
 Math.ceil(Math.random() * 10)
 ...
 
@@ -221,32 +200,18 @@ constructor(){ //variables if not hard-coded
 super();} //persist props super(...arguments)
 super.method() //thwarts overwrite
 ...
-
-arr[arr.length] = l //O(1) //arr.length????
-arr.push(l) //O(1)
-arr = [...arr, l] //O(n)
-...
 ______________________________________________
 Bad Practice 
 ____________
- 
 Time and Space big o ignorance
 ____________________________________________________________
 Lookup - daily hwk
 __________________
-undefined //iso member
-...
-
--1 //iso index
-...
 
 ^ //in vs out
 
-[] = []
 ...
 
-Obj, hash, ...
-...
 
 Array.from(str||hash||node, fxn)
 ...
@@ -254,30 +219,14 @@ Array.from(str||hash||node, fxn)
 ! (like w &) //~-
 ...??
 
-/^[]$/i //String.length == 1
-...
-
-*
-&&
-to
-...
-
-,
-&&
-&
-() //if not on same line
-return
-... @ keyword
-
-++ //?
-...
 
 return Math.imul(subarr, arr.length) //?
 require('lodash').sum(arr) //?
-return arr.reduce(sum) //U
 ...
 
-~? 
+require('ramda')  //point free fxn
+...
+
 >> 1 // ÷ 2 and truncate (Educated guess)
 ...
 
