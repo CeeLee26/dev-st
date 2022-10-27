@@ -193,8 +193,8 @@ _______________________________________________
 Code edge case(s): //higher order fxn == array methods
 __________________
 
-Truthy || Falsy //gotcha, n0t (w/o ??)
-               //else return yea yea yea
+Truthy || Falsy //gotcha, n0t (zip) res (w/o ??)
+               //else return only if not expecting n0t as res (yep yep yep)
 dynamic ?? default
 ...
 
