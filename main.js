@@ -137,9 +137,10 @@ return [...array].filter(char => ![...array1].includes(char));
 return * (parameter == argument) //int
 ...
 
-continue (skip current and continue looping) //U
-""
-blank after if statement //U
+continue; (skip current and continue looping) //U
+ii++; //U
+? '' : ; //U unordered
+blank if block  plus else statement //U
 ...
 
 
