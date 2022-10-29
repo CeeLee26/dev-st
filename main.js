@@ -123,6 +123,7 @@ _TLDR_(tangents)__________________________________________________________
 
 Group similar code strategy:
 ____________________________
+l == a[i]
 
 => [...array1].test(char);
 return fxName.pop([...array1]);
@@ -137,16 +138,8 @@ return [...array].filter(char => ![...array1].includes(char));
 return * (parameter == argument) //int
 ...
 
-continue; (skip current and continue looping) //U
-ii++; //U
-? '' : ; //U unordered
-blank if block  plus else statement //U
-...
-
-
 Practicing:
 ___________
-
 [...Array(n + ).keys()].slice(1) //consecutive array
 ...
 
@@ -168,7 +161,6 @@ ____
 
 Code and Tell:
 _____________
-
 (+)+true //1
 ...?
 
@@ -182,7 +174,6 @@ small < big ? -1 : 1 //?
 _______________________________________________
 Code edge case(s):
 __________________
-
 n % ii == 0  //ii && !(n % ii)
 ...
 
@@ -208,18 +199,15 @@ Time and Space big o ignorance
 ____________________________________________________________
 Lookup - daily hwk
 __________________
-
 ^ //in vs out
-
 ...
-
 
 Array.from(str||hash||node, fxn)
 ...
 
 ! (like w &) //~-
+-~???
 ...??
-
 
 return Math.imul(subarr, arr.length) //?
 require('lodash').sum(arr) //?
