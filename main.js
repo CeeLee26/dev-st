@@ -143,12 +143,6 @@ ___________
 [...Array(n + ).keys()].slice(1) //consecutive array
 ...
 
-Math.floor //caveat < 0
-n/1 |0
-n/1 ^ 0 //n ^ false (int n or n persist) VS n ^ true (n opp)
-~~n //caveat division by not is zeroed??  (> 0)
-...
-
 Number.isInteger(n) //U
 Number.isFinite(n)
 n.constructor === Number
@@ -157,7 +151,6 @@ n.constructor.name == "Number"
 
 FYI:
 ____
-? + undefined //NaN
 
 Code and Tell:
 _____________
@@ -168,19 +161,12 @@ Math.sign(small - big) //?
 small < big ? -1 : 1 //?
 ... //?
 
-.replace(/. \b/) //pos $
-        (/\b ./) //pos ^
-...
-
-&n-1
-%n
+.replace(/. \b/) //pos $ vs char @ ^
+        (/\b ./) //pos ^ vs char @ $
 ...
 _______________________________________________
 Code edge case(s):
 __________________
-n % ii == 0  //ii && !(n % ii)
-...
-
 keyword givenFunName = (givenParams || ) => givenFunRename(givenParams || )
 keyword reName2GivenFxn = function(givenParams){
   return givenFxnRename(givenParams);
@@ -218,9 +204,6 @@ require('lodash').sum(arr) //?
 ...
 
 require('ramda')  //point free fxn
-...
-
->> 1 // ÷ 2 and truncate (Educated guess)
 ...
 
 Obj.getOwnPropertyNames?
