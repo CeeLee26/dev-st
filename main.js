@@ -123,19 +123,13 @@ _TLDR_(tangents)__________________________________________________________
 
 Group similar code strategy:
 ____________________________
-l == a[i]
-
 => [...array1].test(char);
-return fxName.pop([...array1]);
-return [...array].filter(char => ![...array1].includes(char));
-};
-[...array].filter((l, x) => [...array].indexOf(l) == x);//U
-...
+return fxName.pop([...array1]); //new Set()
 
 [...array].length = Math.min(n, [...array].length); (no undefined or holes n0t even after .join())
 ...
 
-return * (parameter == argument) //int
+return l * (parameter == argument) //int
 ...
 
 Practicing:
@@ -163,6 +157,7 @@ small < big ? -1 : 1 //?
 
 .replace(/. \b/) //pos $ vs char @ ^
         (/\b ./) //pos ^ vs char @ $
+/B (?!) //n0t
 ...
 _______________________________________________
 Code edge case(s):
@@ -185,7 +180,7 @@ super.method() //thwarts overwrite
 ______________________________________________
 Bad Practice 
 ____________
-Time and Space big o ignorance
+
 ____________________________________________________________
 Lookup - daily hwk
 __________________
