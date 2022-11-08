@@ -178,9 +178,10 @@ super();} //persist props super(...arguments)
 super.method() //thwarts overwrite
 ...
 ______________________________________________
-Bad Practice 
+Gr8 Practice 
 ____________
-
+Built-in methods
+Memorization
 ____________________________________________________________
 Lookup - daily hwk
 __________________
