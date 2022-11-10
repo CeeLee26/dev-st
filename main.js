@@ -187,6 +187,9 @@ Memorization
 ____________________________________________________________
 Lookup - daily hwk
 __________________
++ in re //same adj
+/^()$/ //as ?! a or s
+!sm //lg.len - sm.len
 ^ //in vs out
 ...
 
