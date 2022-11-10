@@ -190,6 +190,8 @@ __________________
 + in re //same adj
 /^()$/ //as ?! a or s
 !sm //lg.len - sm.len
+* //st | escape all
+
 ^ //in vs out
 ...
 
