@@ -126,12 +126,6 @@ ____________________________
 => [...array1].test(char);
 return fxName.pop([...array1]); //new Set()
 
-[...array].length = Math.min(n, [...array].length); (no undefined or holes n0t even after .join())
-...
-
-return l * (parameter == argument) //int
-...
-
 Practicing:
 ___________
 [...Array(n + ).keys()].slice(1) //consecutive array
@@ -148,60 +142,25 @@ ____
 
 Code and Tell:
 _____________
-(+)+true //1
-...?
-
 Math.sign(small - big) //?
 small < big ? -1 : 1 //?
-... //?
-
-.replace(/. \b/) //pos $ vs char @ ^
-        (/\b ./) //pos ^ vs char @ $
-/B (?!) //n0t
 ...
 _______________________________________________
 Code edge case(s):
 __________________
-console.log([params], "'" + params + "'");
-
 keyword givenFunName = (givenParams || ) => givenFunRename(givenParams || )
 keyword reName2GivenFxn = function(givenParams){
   return givenFxnRename(givenParams);
 }
 ...
-
-Math.floor(Math.random() * 10 + 1)
-Math.ceil(Math.random() * 10)
-...
-
-extends //persist methods
-constructor(){ //variables if not hard-coded
-super();} //persist props super(...arguments)
-super.method() //thwarts overwrite
-...
 ______________________________________________
-Gr8 Practice 
-____________
+Gr8 Practice:
+_____________
 Built-in methods
 Memorization
 ____________________________________________________________
-Lookup - daily hwk
-__________________
-+ in re //same adj
-/^()$/ //as ?! a or s
-!sm //lg.len - sm.len
-* //st | escape all
-
-^ //in vs out
-...
-
-Array.from(str||hash||node, fxn)
-...
-
-! (like w &) //~-
--~???
-...??
-
+Lookup - daily hwk:
+___________________
 return Math.imul(subarr, arr.length) //?
 require('lodash').sum(arr) //?
 ...
