@@ -153,6 +153,9 @@ keyword reName2GivenFxn = function(givenParams){
   return givenFxnRename(givenParams);
 }
 ...
+________
+LookOut:
+'^0' == 0 is ignored so '099' is equivalent to 99
 ______________________________________________
 Gr8 Practice:
 _____________
