@@ -164,6 +164,9 @@ Memorization
 ____________________________________________________________
 Lookup - daily hwk:
 ___________________
+substr? // neg like slice, nd len
+substring // pos like slice
+>> 1 (2 x ÷ gr8 mult idx)
 return Math.imul(subarr, arr.length) //?
 require('lodash').sum(arr) //?
 ...
