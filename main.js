@@ -123,14 +123,13 @@ _TLDR_(tangents)__________________________________________________________
 
 Group similar code strategy:
 ____________________________
-=> [...array1].test(char);
+=> [...array1].test(char); /[]/...
 return fxName.pop([...array1]); //new Set()
 
 Practicing:
 ___________
 [...Array(n + ).keys()].slice(1) //consecutive array
 ...
-
 Number.isInteger(n) //U
 Number.isFinite(n)
 n.constructor === Number
@@ -159,20 +158,14 @@ LookOut:
 ______________________________________________
 Gr8 Practice:
 _____________
-Built-in methods
-Memorization
+Built-in methods|Memorization
 ____________________________________________________________
 Lookup - daily hwk:
 ___________________
-substr? // neg like slice, nd len
-substring // pos like slice
->> 1 (2 x ÷ gr8 mult idx)
 return Math.imul(subarr, arr.length) //?
 require('lodash').sum(arr) //?
 ...
-
 require('ramda')  //point free fxn
 ...
-
 Obj.getOwnPropertyNames?
 ...
