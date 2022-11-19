@@ -121,13 +121,11 @@ console.log(arrLen); //5
 
 _TLDR_(tangents)__________________________________________________________
 
-Group similar code strategy:
-____________________________
+Code and tell:
+______________
 => [...array1].test(char); /[]/...
 return fxName.pop([...array1]); //new Set()
-
-Practicing:
-___________
+...
 [...Array(n + ).keys()].slice(1) //consecutive array
 ...
 Number.isInteger(n) //U
@@ -135,12 +133,6 @@ Number.isFinite(n)
 n.constructor === Number
 n.constructor.name == "Number"
 ...
-
-FYI:
-____
-
-Code and Tell:
-_____________
 Math.sign(small - big) //?
 small < big ? -1 : 1 //?
 ...
@@ -153,14 +145,13 @@ keyword reName2GivenFxn = function(givenParams){
 }
 ...
 ________
-LookOut:
+Equality:
 '^0' == 0 is ignored so '099' is equivalent to 99
-______________________________________________
-Gr8 Practice:
-_____________
-Built-in methods|Memorization
-____________________________________________________________
-Lookup - daily hwk:
+______________________________________________________________________
+Gr8 Practice: 
+Built-in methods|?Memorization?|+`${}`+
+_______________________________________________________________________
+Lookup - hwk:
 ___________________
 return Math.imul(subarr, arr.length) //?
 require('lodash').sum(arr) //?
