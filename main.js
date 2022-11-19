@@ -15,7 +15,7 @@ const updateArr = updateSubarr([4, 14, 67], 3);
 console.log(updateArr); //[7, 17, 70]
 
 /* Function inputs are an array plus default 
-     parament, variable.
+     parameter, variable.
    Function returns an array.
    Each subarray is updated by the step 
      variable's value.
