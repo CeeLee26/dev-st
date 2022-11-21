@@ -101,6 +101,7 @@ console.log(accumulator); //24
 
 _______________________________________________
 
+//getLength is assigned the function definition
 function getLength(array, count = 0, p = 0) {
   if (!array[p]) return count;
   else {
