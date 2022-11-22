@@ -118,6 +118,7 @@ function getLength(array, count = 0, p = 0) {
 }
 const arrLen = getLength([1, 2, 3, 4, 5];
 
+//arrLen will be logged (via log method) to the console object.
 console.log(arrLen); //5
 
 _TLDR_(tangents)__________________________________________________________
