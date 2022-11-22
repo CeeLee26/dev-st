@@ -135,9 +135,6 @@ Number.isFinite(n)
 n.constructor === Number
 n.constructor.name == "Number"
 ...
-Math.sign(small - big) //?
-small < big ? -1 : 1 //?
-...
 _______________________________________________
 Code edge case(s):
 __________________
