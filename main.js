@@ -132,7 +132,7 @@ return fxName.pop([...array1]); //new Set()
 ...
 Number.isInteger(n) //U
 Number.isFinite(n)
-n.constructor === Number
+n.constructor === Number //eval sub
 n.constructor.name == "Number"
 ...
 _______________________________________________
