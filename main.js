@@ -116,6 +116,7 @@ function getLength(array, count = 0, p = 0) {
     6th call to getLength, parameter(s) is paired to argument. The count variable of 5 is returned because p is an index of 5 which is not a subarray (the now false condition is made true with !).*/
 
 }
+//arrLen value will be the evaluated result of passing arguments into getLength.
 const arrLen = getLength([1, 2, 3, 4, 5];
 
 //arrLen will be logged (via log method) to the console object.
