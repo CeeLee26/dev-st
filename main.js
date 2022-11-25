@@ -152,6 +152,7 @@ Built-in methods|?Memorization?|+`${}`+
 _______________________________________________________________________
 Lookup - hwk:
 ___________________
+Binary search == dichotomy
 return Math.imul(subarr, arr.length) //?
 require('lodash').sum(arr) //?
 ...
