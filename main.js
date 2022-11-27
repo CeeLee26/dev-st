@@ -128,7 +128,7 @@ Code and tell:
 ______________
 => [...array1].test(char); /[]/...
 return fxName.pop([...array1]); //new Set()
-...
+...??
 [...Array(n + ).keys()].slice(1) //consecutive array
 ...
 Number.isInteger(n) //U
@@ -143,18 +143,16 @@ keyword givenFunName = (givenParams || ) => givenFunRename(givenParams || )
 keyword reName2GivenFxn = function(givenParams){
   return givenFxnRename(givenParams);
 }
-...
+...??
 ________
 Equality:
 '^0' == 0 is ignored so '099' is equivalent to 99
 ______________________________________________________________________
 Gr8 Practice: 
-Built-in methods|?Memorization?|+`${}`+
+Built-in methods|?Memorization?|+`${}`+|Binary search == dichotomy
 _______________________________________________________________________
-Lookup - hwk:
-___________________
-Binary search == dichotomy
-return Math.imul(subarr, arr.length) //?
+Lookup - 
+_______
 require('lodash').sum(arr) //?
 ...
 require('ramda')  //point free fxn
