@@ -153,6 +153,7 @@ Built-in methods|?Memorization?|+`${}`+|Binary search == dichotomy
 _______________________________________________________________________
 Lookup - 
 _______
+new Uint8Array
 require('lodash').sum(arr) //?
 ...
 require('ramda')  //point free fxn
