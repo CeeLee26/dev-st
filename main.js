@@ -148,10 +148,10 @@ ________
 Equality:
 '^0' == 0 is ignored so '099' is equivalent to 99
 ______________________________________________________________________
-Gr8 Practice: 
+Gr8 Practice(s): 
 Built-in methods|?Memorization?|+`${}`+|Binary search == dichotomy
 _______________________________________________________________________
-Lookup - 
+Lookup - et
 _______
 new Uint8Array
 require('lodash').sum(arr) //?
