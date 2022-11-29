@@ -149,7 +149,8 @@ Equality:
 '^0' == 0 is ignored so '099' is equivalent to 99
 ______________________________________________________________________
 Gr8 Practice(s): 
-Built-in methods|?Memorization?|+`${}`+|Binary search == dichotomy
+Built-in methods|?Memorization?|+`${}`+|?Binary search == dichotomy?
+LoopRight|
 _______________________________________________________________________
 Lookup - et
 _______
