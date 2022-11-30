@@ -1,4 +1,4 @@
-Line by line dissection:
+Parse code line by line:
 
 //updateSubarr is assigned the function definition
 function updateSubarr(arr, step = 0) {
