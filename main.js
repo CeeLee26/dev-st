@@ -129,8 +129,13 @@ ______________
 => [...array1].test(char); /[]/...
 return fxName.pop([...array1]); //new Set()
 ...??
-[...Array(n + ).keys()].slice(1) //consecutive array
+[...Array(n + ).keys()].slice(1) //consecutive array, not O(n)
+Array.from(n, (_,i) => i + 1) //less optimal than classic 4 loop
 ...
+arr.forEach(l => ([0,0,0][l-1]++, arr))
+arr.reduce((a,b) => (a[b]=1,arr),[])
+i+1
+...sort subs
 Number.isInteger(n) //U
 Number.isFinite(n)
 n.constructor === Number //eval sub
@@ -149,7 +154,7 @@ Equality:
 '^0' == 0 is ignored so '099' is equivalent to 99
 ______________________________________________________________________
 Gr8 Practice(s): 
-Built-in methods|?Memorization?|+`${}`+|?Binary search == dichotomy?
+?Built-in methods?|Memorization|+`${}`+|Binary search == dichotomy
 LoopRight|
 _______________________________________________________________________
 Lookup - et
