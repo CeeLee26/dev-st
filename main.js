@@ -155,7 +155,7 @@ Equality:
 ______________________________________________________________________
 Gr8 Practice(s): 
 ?Built-in methods?|Memorization|+`${}`+|Binary search == dichotomy
-LoopRight|
+LoopRight|performance minded
 _______________________________________________________________________
 Lookup - cl //et
 _______
