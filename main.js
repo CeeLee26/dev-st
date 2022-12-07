@@ -123,19 +123,13 @@ const arrLen = getLength([1, 2, 3, 4, 5];
 console.log(arrLen); //5
 
 _TLDR_(tangents)__________________________________________________________
-
 Code and tell:
 ______________
 => [...array1].test(char); /[]/...
 return fxName.pop([...array1]); //new Set()
 ...??
 [...Array(n + ).keys()].slice(1) //consecutive array, not O(n)
-Array.from(n, (_,i) => i + 1) //less optimal than classic 4 loop
 ...
-arr.forEach(l => ([0,0,0][l-1]++, arr))
-arr.reduce((a,b) => (a[b]=1,arr),[])
-i+1
-...sort subs
 Number.isInteger(n) //U
 Number.isFinite(n)
 n.constructor === Number //eval sub
@@ -153,14 +147,11 @@ ________
 Equality:
 '^0' == 0 is ignored so '099' is equivalent to 99
 ______________________________________________________________________
-Gr8 Practice(s): 
-?Built-in methods?|Memorization|+`${}`+|Binary search == dichotomy
-LoopRight|performance minded
 _______________________________________________________________________
 Lookup - cl //et
 _______
 a[a.length-1]+=b;
-new Uint8Array
+new Uint8Array  //new Array, Array, optimization
 require('lodash').sum(arr) //?
 ...
 require('ramda')  //point free fxn
