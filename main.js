@@ -128,16 +128,9 @@ ______________
 => [...array1].test(char); /[]/...
 return fxName.pop([...array1]); //new Set()
 ...??
-[...Array(n + ).keys()].slice(1) //consecutive array, not O(n)
-...
-Number.isInteger(n) //U
-Number.isFinite(n)
 n.constructor === Number //eval sub
-n.constructor.name == "Number"
+n.constructor.name == Number
 ...
-_______________________________________________
-Code edge case(s):
-__________________
 keyword givenFunName = (givenParams || ) => givenFunRename(givenParams || )
 keyword reName2GivenFxn = function(givenParams){
   return givenFxnRename(givenParams);
@@ -150,7 +143,7 @@ ______________________________________________________________________
 _______________________________________________________________________
 Lookup - cl //et
 _______
-a[a.length-1]+=b;
+a[a.length-1] += b;
 new Uint8Array  //new Array, Array, optimization
 require('lodash').sum(arr) //?
 ...
