@@ -136,12 +136,9 @@ keyword reName2GivenFxn = function(givenParams){
   return givenFxnRename(givenParams);
 }
 ...??
-________
-Equality:
-'^0' == 0 is ignored so '099' is equivalent to 99
 ______________________________________________________________________
 _______________________________________________________________________
-Lookup - cl //et
+Lookup: ...cl //et
 _______
 a[a.length-1] += b;
 new Uint8Array  //new Array, Array, optimization
