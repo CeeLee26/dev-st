@@ -122,29 +122,18 @@ const arrLen = getLength([1, 2, 3, 4, 5];
 //arrLen will be logged (via log method) to the console object.
 console.log(arrLen); //5
 
-_TLDR_(tangents)__________________________________________________________
-Code and tell:
-______________
+____________________________________________
+Code + tell:
 => [...array1].test(char); /[]/...
 return fxName.pop([...array1]); //new Set()
-...??
 n.constructor === Number //eval sub
 n.constructor.name == Number
-...
 keyword givenFunName = (givenParams || ) => givenFunRename(givenParams || )
 keyword reName2GivenFxn = function(givenParams){
   return givenFxnRename(givenParams);
-}
-...??
-______________________________________________________________________
-_______________________________________________________________________
-Lookup: ...cl //et
-_______
+_________________________________//cl|et
 a[a.length-1] += b;
 new Uint8Array  //new Array, Array, optimization
-require('lodash').sum(arr) //?
-...
+require('lodash').sum(arr)
 require('ramda')  //point free fxn
-...
-Obj.getOwnPropertyNames?
-...
+Obj.getOwnPropertyNames
